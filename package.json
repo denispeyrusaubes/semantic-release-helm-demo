@@ -7,7 +7,7 @@
     "start": "semantic-release --dry-run"
   },
   "repository": {
-    "url": "test"
+    "url": "https://github.com/brpaz/example"
   },
   "release": {
     "plugins": [

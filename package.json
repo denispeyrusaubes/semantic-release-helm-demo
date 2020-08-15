@@ -6,9 +6,6 @@
   "scripts": {
     "start": "semantic-release --dry-run"
   },
-  "repository": {
-    "url": "https://github.com/brpaz/example"
-  },
   "release": {
     "plugins": [
       "@brpaz/semantic-release-helm"

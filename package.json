@@ -6,9 +6,11 @@
   "scripts": {
     "start": "semantic-release --dry-run"
   },
+  "repository": {
+    "url": "test"
+  },
   "release": {
     "plugins": [
-      "@semantic-release/commit-analyzer",
       "@brpaz/semantic-release-helm"
     ]
   }

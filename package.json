@@ -8,7 +8,12 @@
   },
   "release": {
     "plugins": [
-      "@brpaz/semantic-release-helm"
+      [
+        "@brpaz/semantic-release-helm",
+        {
+          "chartPath": "."
+        }
+      ]
     ]
   }
 }

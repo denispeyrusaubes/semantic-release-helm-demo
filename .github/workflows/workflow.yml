@@ -10,5 +10,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v2
+        with:
+          extra_plugins: |
+            @brpaz/semantic-release-helm
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -11,7 +11,11 @@
       [
         "@brpaz/semantic-release-helm",
         {
-          "chartPath": "."
+          "chartPath": ".",
+          "chartRepository": {
+            "branch": "gh-pages",
+            "url": "https://brpaz.github.io/example/"
+          }
         }
       ]
     ]

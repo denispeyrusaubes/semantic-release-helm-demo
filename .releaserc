@@ -9,7 +9,7 @@
           "chartPath": ".",
           "chartRepository": {
             "branch": "gh-pages",
-            "url": "https://github.com/brpaz/semantic-release-helm-demo"
+            "url": "https://brpaz.github.io/semantic-release-helm-demo/"
           }
         }
       ]

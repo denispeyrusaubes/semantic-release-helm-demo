@@ -1,13 +1,16 @@
 {
   "plugins": [
     "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/github",
+    "@semantic-release/",
     [
         "@brpaz/semantic-release-helm",
         {
           "chartPath": ".",
           "chartRepository": {
             "branch": "gh-pages",
-            "url": "https://brpaz.github.io/helm-semantic-release-demo"
+            "url": "https://github.com/brpaz/semantic-release-helm-demo"
           }
         }
       ]

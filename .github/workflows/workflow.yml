@@ -55,4 +55,4 @@ jobs:
           extra_plugins: |
             @brpaz/semantic-release-helm
         env:
-          GITHUB_TOKEN: "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"
+          GITHUB_TOKEN: "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"

@@ -35,13 +35,13 @@ jobs:
 
       - uses: azure/setup-kubectl@v1
 
-      - name: Create k8s Kind Cluster
-        uses: helm/kind-action@v1.0.0
+#      - name: Create k8s Kind Cluster
+#        uses: helm/kind-action@v1.0.0
 
-      - uses: actions/checkout@v2
+#      - uses: actions/checkout@v2
 
-      - name: Install Test dependencies
-        run: cd test && go mod download
+#      - name: Install Test dependencies
+#        run: cd test && go mod download
 
   release:
     if: github.ref == 'refs/heads/master'

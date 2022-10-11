@@ -43,12 +43,6 @@ jobs:
       - name: Install Test dependencies
         run: cd test && go mod download
 
-      - name: Run Terratest
-        run: |
-          cd test 
-          go test -v . 
-          go test . -v -timeout 5m --tags=integration
-
   release:
     if: github.ref == 'refs/heads/master'
     needs: [test]
